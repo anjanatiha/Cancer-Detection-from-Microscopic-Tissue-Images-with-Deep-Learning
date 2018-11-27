@@ -1,5 +1,3 @@
-# Histopathologic-Cancer-Detection
-
 ## Cancer Detection from Histopathologic Images using Transfer Learning and Convolutional Neural Network                                           
 <pre>
 Domain             : Computer Vision, Machine Learning
