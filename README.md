@@ -49,14 +49,14 @@ Optimizers              : Adam
 Loss Function           : categorical_crossentropy
 
 <b>Training Parameters</b>
-Batch Size              : 64/32
-Number of Epochs        : 50
-Training Time           : - Hours
+Batch Size              : 32
+Number of Epochs        : 20
+Training Time           : 1 day and 8 hour (33 Hours)
 
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
 <!--<b>Validation</b>-->
 <b>Testing</b>
-Accuracy                : 69.55%> need better
+Accuracy                : 69.55%
 Loss                    : 1.10
 <!--Precision               : -->
 Recall                  : 
