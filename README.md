@@ -56,10 +56,10 @@ Training Time           : - Hours
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
 <!--<b>Validation</b>-->
 <b>Testing</b>
-Accuracy                : 83.44%> need better
-Loss                    : 0.42///
+Accuracy                : 69.55%> need better
+Loss                    : 1.10
 <!--Precision               : -->
-Recall                  : 94% (highest)//
+Recall                  : 
 <!--Specificity             : -->
 </pre>
 
