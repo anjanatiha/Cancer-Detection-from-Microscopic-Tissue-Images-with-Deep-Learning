@@ -35,7 +35,6 @@ Original Paper   : <a href=https://jamanetwork.com/journals/jama/fullarticle/266
 
 <pre>
 <b>Dataset Details</b>
---------------------------------------------------------------------
 Dataset Name            : Histopathologic Cancer Detection
 Number of Class         : 2
 Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
