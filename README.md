@@ -24,7 +24,7 @@ Portfolio        : <a href=https://anjanatiha.wixsite.com/website>Anjana Tiha's 
 <pre>
 Dataset Name     : Histopathologic Cancer Detection
 Dataset Link     : <a href=https://www.kaggle.com/c/histopathologic-cancer-detection>Histopathologic Cancer Detection (Kaggle)</a>
-                 : <a href=https://github.com/basveeling/pcam> PatchCamelyon (PCam) (GitHub)</a>
+                 : <a href=https://github.com/basveeling/pcam>PatchCamelyon (PCam) (GitHub)</a>
                  : <a href=https://camelyon16.grand-challenge.org/Data/>CAMELYON16 challenge Dataset (Original Dataset)</a>
                  
 Original Paper   : <a href=https://jamanetwork.com/journals/jama/fullarticle/2665774>Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer </a> 
@@ -54,13 +54,27 @@ Number of Epochs        : 2
 Training Time           : 1.5 hour (90 Min)
 
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
-<!--<b>Validation</b>-->
+
+<b>Training</b>
+--------------------------------
+Accuracy                : 93.59%
+Loss                    : 0.1720
+--------------------------------
+
+<b>Validation</b>
+--------------------------------
+Accuracy                : 89.99%
+Loss                    : 0.2952
+--------------------------------
+
 <b>Testing</b>
-Accuracy                : 69.55%
-Loss                    : 1.10
-<!--Precision               : -->
-Recall                  : 
-<!--Specificity             : -->
+--------------------------------
+Accuracy                : 89.77%
+Loss                    : 89.77%
+Precision               : 77.68%
+Recall                  : 91.68%
+Roc-Auc                 : 86.87%
+--------------------------------
 </pre>
 
 ##### Sample Output: 
