@@ -1,4 +1,4 @@
-## Histopathologic Cancer Detection using Auto ML, Convolutional Neural Network, and Transfer Learning.                                       
+## Cancer Detection from Histopathologic Images using Deep Learning (Auto ML, Custom Convolutional Neural Network, and Transfer Learning) 
 <pre>
 Domain             : Computer Vision, Machine Learning
 Sub-Domain         : Deep Learning, Image Recognition
@@ -8,9 +8,10 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 
 ### Description
 <pre>
-1. Detected Cancer with Auto ML model “NASNetMobile” using 250000+(6.5GB) cancer cell images.
-2. For training, concatenated global pooling (max, average), dropout and dense layers to the output layer for final output.
-3. Attained testing accuracy 89.77% and loss 0.30.
+1. Detected Cancer using Auto ML model from Google (“NASNetMobile”) with 250000+ (6.5GB) cancer cell images (histopathologic).
+2. For training, concatenated global pooling (max, average), dropout and dense layers to the output layer for final output prediction.
+3. Attained testing accuracy of 87.99% and loss of 0.30.
+
 </pre>
 
 #### Code
