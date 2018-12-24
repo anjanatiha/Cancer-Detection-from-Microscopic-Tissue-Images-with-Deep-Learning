@@ -72,6 +72,11 @@ Recall                  :
 <a href=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/images/result.png>See More Images</a>
 </kbd>
 
+##### Confusion Matrix: 
+<kbd>
+<img src=https://github.com/anjanatiha/Histopathologic-Cancer-Detection/blob/master/demo/report/CM.png alt="Confusion Matrix" width=800px height=600px>
+</kbd>
+
 #### Tools / Libraries
 <pre>
 Languages               : Python
