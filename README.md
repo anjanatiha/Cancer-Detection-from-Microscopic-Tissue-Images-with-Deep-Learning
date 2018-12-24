@@ -1,16 +1,16 @@
-## Cancer Detection from Histopathologic Images using Transfer Learning and Convolutional Neural Network                                           
+## Histopathologic Cancer Detection using Auto ML, Convolutional Neural Network, and Transfer Learning.                                       
 <pre>
 Domain             : Computer Vision, Machine Learning
 Sub-Domain         : Deep Learning, Image Recognition
-Techniques         : Deep Convolutional Neural Network, ImageNet, Inception
+Techniques         : Deep Convolutional Neural Network, Transfer Learning, ImageNet, Auto ML, NASNetMobile
 Application        : Image Recognition, Image Classification, Medical Imaging
 </pre>
 
 ### Description
 <pre>
-1. Detected Cancer from Histopathologic images by retraining pretrained model “InceptionV3” with 250000+ images of X-ray (6GB).
-2. For retraining, removed output layers, freezed first few layers and Fine-tuned model for two new label classes (Cancer and Normal).
-3. Attained testing accuracy -- and loss ---.
+1. Detected Cancer with Auto ML model “NASNetMobile” using 250000+(6.5GB) cancer cell images.
+2. For training, concatenated global pooling (max, average), dropout and dense layers to the output layer for final output.
+3. Attained testing accuracy 89.77% and loss 0.30.
 </pre>
 
 #### Code
@@ -44,14 +44,14 @@ Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
 
 <b>Model Parameters</b>
 Machine Learning Library: Keras
-Base Model              : InceptionV3
+Base Model              : NASNetMobile
 Optimizers              : Adam
 Loss Function           : categorical_crossentropy
 
 <b>Training Parameters</b>
 Batch Size              : 32
-Number of Epochs        : 20
-Training Time           : 1 day and 8 hour (33 Hours)
+Number of Epochs        : 2
+Training Time           : 1.5 hour (90 Min)
 
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
 <!--<b>Validation</b>-->
@@ -87,6 +87,6 @@ Libraries               : Keras, TensorFlow, Inception, ImageNet
 #### Dates
 <pre>
 Duration                : November 2018 - Current
-Current Version         : v1.0.0.0
-Last Update             : 11.27.2018
+Current Version         : v1.0.0.3
+Last Update             : 12.24.2018
 </pre>
