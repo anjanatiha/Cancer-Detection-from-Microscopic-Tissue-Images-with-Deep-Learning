@@ -35,6 +35,7 @@ Original Paper   : <a href=https://jamanetwork.com/journals/jama/fullarticle/266
 
 <pre>
 <b>Dataset Details</b>
+--------------------------------------------------------------------
 Dataset Name            : Histopathologic Cancer Detection
 Number of Class         : 2
 Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
@@ -42,18 +43,25 @@ Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
                           Validation : 44,005  (1.14 Gigabyte (GB))
                           Testing    : 44,004  (1.14 Gigabyte (GB))
 
+
 <b>Model Parameters</b>
+--------------------------------------------------
 Machine Learning Library: Keras
-Base Model              : NASNetMobile
+Base Model              : InceptionV3
 Optimizers              : Adam
 Loss Function           : categorical_crossentropy
 
+
 <b>Training Parameters</b>
+--------------------------------------------------
 Batch Size              : 32
 Number of Epochs        : 2
-Training Time           : 1.5 hour (90 Min)
+Training Time           : 1.5 hour (90 min)
 
+
+---------------------------------------------------------
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
+---------------------------------------------------------
 
 <b>Training</b>
 --------------------------------
@@ -75,6 +83,7 @@ Precision               : 77.68%
 Recall                  : 91.68%
 Roc-Auc                 : 86.87%
 --------------------------------
+
 </pre>
 
 ##### Sample Output: 
