@@ -1,16 +1,17 @@
-## Cancer Detection from Histopathologic Images using Transfer Learning and Convolutional Neural Network                                           
+## Cancer Detection from Histopathologic Images using Deep Learning (Auto ML, Custom Convolutional Neural Network, and Transfer Learning) 
 <pre>
 Domain             : Computer Vision, Machine Learning
 Sub-Domain         : Deep Learning, Image Recognition
-Techniques         : Deep Convolutional Neural Network, ImageNet, Inception
+Techniques         : Deep Convolutional Neural Network, Transfer Learning, ImageNet, Auto ML, NASNetMobile
 Application        : Image Recognition, Image Classification, Medical Imaging
 </pre>
 
 ### Description
 <pre>
-1. Detected Cancer from Histopathologic images by retraining pretrained model “InceptionV3” with 250000+ images of X-ray (6GB).
-2. For retraining, removed output layers, freezed first few layers and Fine-tuned model for two new label classes (Cancer and Normal).
-3. Attained testing accuracy -- and loss ---.
+1. Detected Cancer using Auto ML model from Google (“NASNetMobile”) with 250000+ (6.5GB) cancer cell images (histopathologic).
+2. For training, concatenated global pooling (max, average), dropout and dense layers to the output layer for final output prediction.
+3. Attained testing accuracy of 87.99% and loss of 0.30.
+
 </pre>
 
 #### Code
@@ -24,7 +25,7 @@ Portfolio        : <a href=https://anjanatiha.wixsite.com/website>Anjana Tiha's 
 <pre>
 Dataset Name     : Histopathologic Cancer Detection
 Dataset Link     : <a href=https://www.kaggle.com/c/histopathologic-cancer-detection>Histopathologic Cancer Detection (Kaggle)</a>
-                 : <a href=https://github.com/basveeling/pcam> PatchCamelyon (PCam) (GitHub)</a>
+                 : <a href=https://github.com/basveeling/pcam>PatchCamelyon (PCam) (GitHub)</a>
                  : <a href=https://camelyon16.grand-challenge.org/Data/>CAMELYON16 challenge Dataset (Original Dataset)</a>
                  
 Original Paper   : <a href=https://jamanetwork.com/journals/jama/fullarticle/2665774>Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer </a> 
@@ -42,25 +43,45 @@ Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
                           Validation : 44,005  (1.14 Gigabyte (GB))
                           Testing    : 44,004  (1.14 Gigabyte (GB))
 
+
 <b>Model Parameters</b>
 Machine Learning Library: Keras
 Base Model              : InceptionV3
 Optimizers              : Adam
 Loss Function           : categorical_crossentropy
 
+
 <b>Training Parameters</b>
 Batch Size              : 32
-Number of Epochs        : 20
-Training Time           : 1 day and 8 hour (33 Hours)
+Number of Epochs        : 2
+Training Time           : 1.5 hour (90 min)
 
+
+---------------------------------------------------------
 <b>Output (Prediction/ Recognition / Classification Metrics)</b>
-<!--<b>Validation</b>-->
+---------------------------------------------------------
+
+<b>Training</b>
+--------------------------------
+Accuracy                : 93.59%
+Loss                    : 0.1720
+--------------------------------
+
+<b>Validation</b>
+--------------------------------
+Accuracy                : 89.99%
+Loss                    : 0.2952
+--------------------------------
+
 <b>Testing</b>
-Accuracy                : 69.55%
-Loss                    : 1.10
-<!--Precision               : -->
-Recall                  : 
-<!--Specificity             : -->
+--------------------------------
+Accuracy                : 89.77%
+Loss                    : 89.77%
+Precision               : 77.68%
+Recall                  : 91.68%
+Roc-Auc                 : 86.87%
+--------------------------------
+
 </pre>
 
 ##### Sample Output: 
@@ -87,6 +108,6 @@ Libraries               : Keras, TensorFlow, Inception, ImageNet
 #### Dates
 <pre>
 Duration                : November 2018 - Current
-Current Version         : v1.0.0.0
-Last Update             : 11.27.2018
+Current Version         : v1.0.0.3
+Last Update             : 12.24.2018
 </pre>
