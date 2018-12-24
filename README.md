@@ -44,7 +44,6 @@ Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
 
 
 <b>Model Parameters</b>
---------------------------------------------------
 Machine Learning Library: Keras
 Base Model              : InceptionV3
 Optimizers              : Adam
@@ -52,7 +51,6 @@ Loss Function           : categorical_crossentropy
 
 
 <b>Training Parameters</b>
---------------------------------------------------
 Batch Size              : 32
 Number of Epochs        : 2
 Training Time           : 1.5 hour (90 min)
