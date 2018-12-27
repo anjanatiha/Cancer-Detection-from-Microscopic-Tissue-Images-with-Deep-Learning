@@ -40,7 +40,7 @@ Number of Class         : 2
 </pre>
 
 | Dataset Subtype | Number of Image | Size of Images (GB/Gigabyte) |
-| :-------------- | :-------------- | :--------------------------- |
+| :-------------- | --------------: | ---------------------------: |
 | **Total**       | 220,025         | 5.72 GB                      |
 | **Training**    | 132,016         | 3.43 GB                      |
 | **Validation**  | 44,005          | 1.14 GB                      |
