@@ -34,7 +34,11 @@ Original Paper   : <a href=https://jamanetwork.com/journals/jama/fullarticle/266
                    <cite>Ehteshami Bejnordi B, Veta M, Johannes van Diest P, et al. Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer. JAMA. 2017;318(22):2199–2210. doi:10.1001/jama.2017.14585</cite>
                    </pre>
 
+```
+Dataset Name            : Histopathologic Cancer Detection
+Number of Class         : 2
 
+```
 | Dataset Subtype | Number of Image | Size of Images (GB/Gigabyte) |
 | :-------------- | :-------------- | :--------------------------- |
 | **Total**       | 220,025         | 5.72 Gigabyte (GB)           |
