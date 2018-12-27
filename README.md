@@ -52,7 +52,7 @@ Number of Class         : 2
 | :------------------- | ----------------------------------------------------------: |
 | **Base Model**       | NashNetLarge                                                |
 | **Optimizers**       | Adam                                                        |
-| **Loss Function**    | categorical_crossentropy                                    |
+| **Loss Function**    | Categorical Crossentropy                                    |
 | **Learning Rate**    | 0.0001                                                      |
 | **Batch Size**       | 16                                                          |                                     
 | **Number of Epochs** | 2                                                           |
@@ -74,7 +74,7 @@ Number of Class         : 2
 | :------------------------ | -----------------------------------------------------: |
 | **Base Models**           | NashNet(NashNetLarge, NashNetMobile), InceptionV3      |
 | **Optimizers**            | Adam, SGD                                              |
-| **Loss Function**         | categorical_crossentropy, binary_crossentropy          |
+| **Loss Function**         | Categorical Crossentropy, Binary Crossentropy          |
 | **Learning Rate**         | 0.0001, 0.00001, 0.000001, 0.0000001                   |
 | **Batch Size**            | 16, 32, 64, 128, 256                                   |                                     
 | **Number of Epochs**      | 2, 4, 6, 10, 30, 50, 100                               |
