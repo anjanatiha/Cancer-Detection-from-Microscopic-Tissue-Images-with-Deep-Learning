@@ -35,6 +35,7 @@ Original Paper   : <a href=https://jamanetwork.com/journals/jama/fullarticle/266
 </pre>
 
 <pre>
+<b>Dataset Details</b>
 Dataset Name            : Histopathologic Cancer Detection
 Number of Class         : 2
 
@@ -48,14 +49,6 @@ Number of Class         : 2
 
 
 <pre>
-<b>Dataset Details</b>
-Dataset Name            : Histopathologic Cancer Detection
-Number of Class         : 2
-Number/Size of Images   : Total      : 220,025 (5.72 Gigabyte (GB))
-                          Training   : 132,016 (3.43 Gigabyte (GB))
-                          Validation : 44,005  (1.14 Gigabyte (GB))
-                          Testing    : 44,004  (1.14 Gigabyte (GB))
-
 
 <b>Model Parameters</b>
 Machine Learning Library: Keras
