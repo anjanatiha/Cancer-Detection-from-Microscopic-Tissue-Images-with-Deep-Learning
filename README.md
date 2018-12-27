@@ -48,8 +48,6 @@ Number of Class         : 2
 
 
 ### Model and Training Prameters
-<b>Machine Learning Library: Keras</b>
-
 | Current Parameters   | Value                                                       |
 | :------------------- | ----------------------------------------------------------: |
 | **Base Model**       | NashNetLarge                                                |
@@ -60,8 +58,8 @@ Number of Class         : 2
 | **Number of Epochs** | 2                                                           |
 | **Training Time**    | 4.5 hour (270 min)                                          |
 
-### Model Performance Metrics (Prediction/ Recognition / Classification)
 
+### Model Performance Metrics (Prediction/ Recognition / Classification)
 | Dataset              | Training       | Validation    | Test      |                                 
 | :------------------- | -------------: | ------------: | --------: |
 | **Accuracy**         | 94.74%         | 93.62%        | 93.72%    |
@@ -72,7 +70,6 @@ Number of Class         : 2
 
 
 ### Other Experimented Model and Training Prameters
-
 | Parameters (Experimented) | Value                                                  |
 | :------------------------ | -----------------------------------------------------: |
 | **Base Models**           | NashNet(NashNetLarge, NashNetMobile), InceptionV3      |
