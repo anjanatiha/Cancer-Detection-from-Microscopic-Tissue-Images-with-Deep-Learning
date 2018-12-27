@@ -111,3 +111,46 @@ Duration                : November 2018 - Current
 Current Version         : v1.0.0.3
 Last Update             : 12.24.2018
 </pre>
+
+
+### Model Parameters
+
+<b>Machine Learning Library: Keras</b>
+
+Model and Training Prameters
+
+| Current Parameters   | Value                                                       |
+| :------------------- | :---------------------------------------------------------- |
+| **Base Model**       | NashNetLarge                                                |
+| **Optimizers**       | Adam                                                        |
+| **Loss Function**    | categorical_crossentropy                                    |
+| **Learning Rate**    | 0.0001                                                      |
+| **Batch Size**       | 16                                                          |                                     
+| **Number of Epochs** | 2                                                           |
+| **Training Time**    | 4.5 hour (270 min)                                          |
+
+
+
+<b>Model Performance Metrics (Prediction/ Recognition / Classification)</b>
+
+| Dataset              | Training       | Validation    | Test      |                                 
+| :------------------- | :------------- | :------------ | :-------- |
+| **Accuracy**         | 94.74%         | 93.62%        | 93.72%    |
+| **Loss**             | 0.14           | 0.30          | 0.30      |
+| **Precision**        | ---            | ---           | 89.02%    |
+| **Recall**           | ---            | ---           | 90.80%    |
+| **Roc-Auc**          | ---            | ---           | 91.59%    |
+
+
+<b>Other Experimented Model and Training Prameters</b>
+
+| Parameters (Experimented) | Value                                                  |
+| ------------------------- | :-----------------------------------------------------:|
+| **Base Models**           | NashNet(NashNetLarge, NashNetMobile), InceptionV3      |
+| **Optimizers**            | Adam, SGD                                              |
+| **Loss Function**         | categorical_crossentropy, binary_crossentropy          |
+| **Learning Rate**         | 0.0001, 0.00001, 0.000001, 0.0000001                   |
+| **Batch Size**            | 16, 32, 64, 128, 256                                   |                                     
+| **Number of Epochs**      | 2, 4, 6, 10, 30, 50, 100                               |
+| **Training Time**         | 4.5 hour (270 min), 1 day (24 hours), 2 days (24 hours)|
+
