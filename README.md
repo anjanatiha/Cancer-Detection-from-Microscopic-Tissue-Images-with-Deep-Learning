@@ -8,10 +8,9 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 
 ### Description
 <pre>
-1. Detected Cancer using Auto ML model from Google (“NASNetMobile”) with 250000+ (6.5GB) cancer cell images (histopathologic).
+1. Detected Cancer from microscopic tissue images (histopathologic) with Auto ML (Google’s “NASNet”).
 2. For training, concatenated global pooling (max, average), dropout and dense layers to the output layer for final output prediction.
-3. Attained testing accuracy of 87.99% and loss of 0.30.
-
+3. Attained testing accuracy of 93.72% and loss 0.30 on 250K+ (6.5GB+) image cancer dataset.
 </pre>
 
 #### Code
@@ -71,7 +70,8 @@ Number of Class         : 2
 | **Recall**           | ---            | ---           | 90.80%    |
 | **Roc-Auc**          | ---            | ---           | 91.59%    |
 
-### >Other Experimented Model and Training Prameters
+
+### Other Experimented Model and Training Prameters
 
 | Parameters (Experimented) | Value                                                  |
 | :------------------------ | :----------------------------------------------------- |
