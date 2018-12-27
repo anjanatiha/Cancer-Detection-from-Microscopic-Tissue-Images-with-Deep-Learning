@@ -74,7 +74,7 @@ Number of Class         : 2
 ### >Other Experimented Model and Training Prameters
 
 | Parameters (Experimented) | Value                                                  |
-| ------------------------- | :-----------------------------------------------------:|
+| :------------------------ | :----------------------------------------------------- |
 | **Base Models**           | NashNet(NashNetLarge, NashNetMobile), InceptionV3      |
 | **Optimizers**            | Adam, SGD                                              |
 | **Loss Function**         | categorical_crossentropy, binary_crossentropy          |
