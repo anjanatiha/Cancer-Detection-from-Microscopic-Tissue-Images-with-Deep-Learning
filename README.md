@@ -51,7 +51,7 @@ Number of Class         : 2
 <b>Machine Learning Library: Keras</b>
 
 | Current Parameters   | Value                                                       |
-| :------------------- | :---------------------------------------------------------- |
+| :------------------- | ----------------------------------------------------------: |
 | **Base Model**       | NashNetLarge                                                |
 | **Optimizers**       | Adam                                                        |
 | **Loss Function**    | categorical_crossentropy                                    |
@@ -63,7 +63,7 @@ Number of Class         : 2
 ### Model Performance Metrics (Prediction/ Recognition / Classification)
 
 | Dataset              | Training       | Validation    | Test      |                                 
-| :------------------- | :------------- | :------------ | :-------- |
+| :------------------- | -------------: | ------------: | --------: |
 | **Accuracy**         | 94.74%         | 93.62%        | 93.72%    |
 | **Loss**             | 0.14           | 0.30          | 0.30      |
 | **Precision**        | ---            | ---           | 89.02%    |
@@ -74,7 +74,7 @@ Number of Class         : 2
 ### Other Experimented Model and Training Prameters
 
 | Parameters (Experimented) | Value                                                  |
-| :------------------------ | :----------------------------------------------------- |
+| :------------------------ | -----------------------------------------------------: |
 | **Base Models**           | NashNet(NashNetLarge, NashNetMobile), InceptionV3      |
 | **Optimizers**            | Adam, SGD                                              |
 | **Loss Function**         | categorical_crossentropy, binary_crossentropy          |
