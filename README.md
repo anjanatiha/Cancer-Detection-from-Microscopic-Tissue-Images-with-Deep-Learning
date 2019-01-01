@@ -1,4 +1,4 @@
-### Cancer Detection from Histopathologic Images using Deep Learning (Auto ML, Custom Convolutional Neural Network, and Transfer Learning) 
+### Cancer Detection from Microscopic-Tissue Images with Deep Learning (Auto ML, Custom Convolutional Neural Network, and Transfer Learning) 
 <pre>
 Domain             : Computer Vision, Machine Learning
 Sub-Domain         : Deep Learning, Image Recognition
