@@ -104,7 +104,7 @@ Libraries               : Keras, TensorFlow, Inception, ImageNet
 
 #### Dates
 <pre>
-Duration                : November 2018 - Current
-Current Version         : v1.0.0.3
-Last Update             : 12.24.2018
+Duration                : November 2018 - March 2019
+Current Version         : v1.0.0.8
+Last Update             : 03.24.2019
 </pre>
